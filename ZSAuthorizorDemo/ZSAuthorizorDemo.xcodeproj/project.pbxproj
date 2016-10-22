@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04258EE1DBB4CF10038AAAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D04258ED1DBB4CF10038AAAA /* main.m */; };
+		D04258F11DBB4CF10038AAAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D04258F01DBB4CF10038AAAA /* AppDelegate.m */; };
+		D04258F41DBB4CF10038AAAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04258F31DBB4CF10038AAAA /* ViewController.m */; };
+		D04258F71DBB4CF10038AAAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04258F51DBB4CF10038AAAA /* Main.storyboard */; };
+		D04258F91DBB4CF10038AAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04258F81DBB4CF10038AAAA /* Assets.xcassets */; };
+		D04258FC1DBB4CF10038AAAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04258FA1DBB4CF10038AAAA /* LaunchScreen.storyboard */; };
+		D04259131DBB4D3B0038AAAA /* ZSAuthorizationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D04259061DBB4D3B0038AAAA /* ZSAuthorizationCenter.m */; };
+		D04259141DBB4D3B0038AAAA /* ZSAuthorizor.m in Sources */ = {isa = PBXBuildFile; fileRef = D04259081DBB4D3B0038AAAA /* ZSAuthorizor.m */; };
+		D04259151DBB4D3B0038AAAA /* ZSCameraAuthorizor.m in Sources */ = {isa = PBXBuildFile; fileRef = D042590A1DBB4D3B0038AAAA /* ZSCameraAuthorizor.m */; };
+		D04259161DBB4D3B0038AAAA /* ZSLocationAuthorizor.m in Sources */ = {isa = PBXBuildFile; fileRef = D042590C1DBB4D3B0038AAAA /* ZSLocationAuthorizor.m */; };
+		D04259171DBB4D3B0038AAAA /* ZSMicrophoneAuthorizor.m in Sources */ = {isa = PBXBuildFile; fileRef = D042590E1DBB4D3B0038AAAA /* ZSMicrophoneAuthorizor.m */; };
+		D04259181DBB4D3B0038AAAA /* ZSPhotosAuthorizor.m in Sources */ = {isa = PBXBuildFile; fileRef = D04259101DBB4D3B0038AAAA /* ZSPhotosAuthorizor.m */; };
+		D04259191DBB4D3B0038AAAA /* ZSRemoteAuthorizor.m in Sources */ = {isa = PBXBuildFile; fileRef = D04259121DBB4D3B0038AAAA /* ZSRemoteAuthorizor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D04258E91DBB4CF10038AAAA /* ZSAuthorizorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSAuthorizorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04258ED1DBB4CF10038AAAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D04258EF1DBB4CF10038AAAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D04258F01DBB4CF10038AAAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D04258F21DBB4CF10038AAAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D04258F31DBB4CF10038AAAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D04258F61DBB4CF10038AAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D04258F81DBB4CF10038AAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D04258FB1DBB4CF10038AAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D04258FD1DBB4CF10038AAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04259041DBB4D3B0038AAAA /* ZSADefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSADefine.h; sourceTree = "<group>"; };
+		D04259051DBB4D3B0038AAAA /* ZSAuthorizationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAuthorizationCenter.h; sourceTree = "<group>"; };
+		D04259061DBB4D3B0038AAAA /* ZSAuthorizationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAuthorizationCenter.m; sourceTree = "<group>"; };
+		D04259071DBB4D3B0038AAAA /* ZSAuthorizor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAuthorizor.h; sourceTree = "<group>"; };
+		D04259081DBB4D3B0038AAAA /* ZSAuthorizor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAuthorizor.m; sourceTree = "<group>"; };
+		D04259091DBB4D3B0038AAAA /* ZSCameraAuthorizor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSCameraAuthorizor.h; sourceTree = "<group>"; };
+		D042590A1DBB4D3B0038AAAA /* ZSCameraAuthorizor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSCameraAuthorizor.m; sourceTree = "<group>"; };
+		D042590B1DBB4D3B0038AAAA /* ZSLocationAuthorizor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSLocationAuthorizor.h; sourceTree = "<group>"; };
+		D042590C1DBB4D3B0038AAAA /* ZSLocationAuthorizor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSLocationAuthorizor.m; sourceTree = "<group>"; };
+		D042590D1DBB4D3B0038AAAA /* ZSMicrophoneAuthorizor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSMicrophoneAuthorizor.h; sourceTree = "<group>"; };
+		D042590E1DBB4D3B0038AAAA /* ZSMicrophoneAuthorizor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSMicrophoneAuthorizor.m; sourceTree = "<group>"; };
+		D042590F1DBB4D3B0038AAAA /* ZSPhotosAuthorizor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSPhotosAuthorizor.h; sourceTree = "<group>"; };
+		D04259101DBB4D3B0038AAAA /* ZSPhotosAuthorizor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSPhotosAuthorizor.m; sourceTree = "<group>"; };
+		D04259111DBB4D3B0038AAAA /* ZSRemoteAuthorizor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSRemoteAuthorizor.h; sourceTree = "<group>"; };
+		D04259121DBB4D3B0038AAAA /* ZSRemoteAuthorizor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSRemoteAuthorizor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04258E61DBB4CF10038AAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04258E01DBB4CF10038AAAA = {
+			isa = PBXGroup;
+			children = (
+				D04259031DBB4D3B0038AAAA /* ZSAuthorizor */,
+				D04258EB1DBB4CF10038AAAA /* ZSAuthorizorDemo */,
+				D04258EA1DBB4CF10038AAAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04258EA1DBB4CF10038AAAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04258E91DBB4CF10038AAAA /* ZSAuthorizorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04258EB1DBB4CF10038AAAA /* ZSAuthorizorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D04258EF1DBB4CF10038AAAA /* AppDelegate.h */,
+				D04258F01DBB4CF10038AAAA /* AppDelegate.m */,
+				D04258F21DBB4CF10038AAAA /* ViewController.h */,
+				D04258F31DBB4CF10038AAAA /* ViewController.m */,
+				D04258F51DBB4CF10038AAAA /* Main.storyboard */,
+				D04258F81DBB4CF10038AAAA /* Assets.xcassets */,
+				D04258FA1DBB4CF10038AAAA /* LaunchScreen.storyboard */,
+				D04258FD1DBB4CF10038AAAA /* Info.plist */,
+				D04258EC1DBB4CF10038AAAA /* Supporting Files */,
+			);
+			path = ZSAuthorizorDemo;
+			sourceTree = "<group>";
+		};
+		D04258EC1DBB4CF10038AAAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04258ED1DBB4CF10038AAAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04259031DBB4D3B0038AAAA /* ZSAuthorizor */ = {
+			isa = PBXGroup;
+			children = (
+				D04259041DBB4D3B0038AAAA /* ZSADefine.h */,
+				D04259051DBB4D3B0038AAAA /* ZSAuthorizationCenter.h */,
+				D04259061DBB4D3B0038AAAA /* ZSAuthorizationCenter.m */,
+				D04259071DBB4D3B0038AAAA /* ZSAuthorizor.h */,
+				D04259081DBB4D3B0038AAAA /* ZSAuthorizor.m */,
+				D04259091DBB4D3B0038AAAA /* ZSCameraAuthorizor.h */,
+				D042590A1DBB4D3B0038AAAA /* ZSCameraAuthorizor.m */,
+				D042590B1DBB4D3B0038AAAA /* ZSLocationAuthorizor.h */,
+				D042590C1DBB4D3B0038AAAA /* ZSLocationAuthorizor.m */,
+				D042590D1DBB4D3B0038AAAA /* ZSMicrophoneAuthorizor.h */,
+				D042590E1DBB4D3B0038AAAA /* ZSMicrophoneAuthorizor.m */,
+				D042590F1DBB4D3B0038AAAA /* ZSPhotosAuthorizor.h */,
+				D04259101DBB4D3B0038AAAA /* ZSPhotosAuthorizor.m */,
+				D04259111DBB4D3B0038AAAA /* ZSRemoteAuthorizor.h */,
+				D04259121DBB4D3B0038AAAA /* ZSRemoteAuthorizor.m */,
+			);
+			name = ZSAuthorizor;
+			path = ../ZSAuthorizor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04258E81DBB4CF10038AAAA /* ZSAuthorizorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04259001DBB4CF10038AAAA /* Build configuration list for PBXNativeTarget "ZSAuthorizorDemo" */;
+			buildPhases = (
+				D04258E51DBB4CF10038AAAA /* Sources */,
+				D04258E61DBB4CF10038AAAA /* Frameworks */,
+				D04258E71DBB4CF10038AAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSAuthorizorDemo;
+			productName = ZSAuthorizorDemo;
+			productReference = D04258E91DBB4CF10038AAAA /* ZSAuthorizorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04258E11DBB4CF10038AAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = peter.shi;
+				TargetAttributes = {
+					D04258E81DBB4CF10038AAAA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D04258E41DBB4CF10038AAAA /* Build configuration list for PBXProject "ZSAuthorizorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D04258E01DBB4CF10038AAAA;
+			productRefGroup = D04258EA1DBB4CF10038AAAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04258E81DBB4CF10038AAAA /* ZSAuthorizorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04258E71DBB4CF10038AAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04258FC1DBB4CF10038AAAA /* LaunchScreen.storyboard in Resources */,
+				D04258F91DBB4CF10038AAAA /* Assets.xcassets in Resources */,
+				D04258F71DBB4CF10038AAAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04258E51DBB4CF10038AAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04258F41DBB4CF10038AAAA /* ViewController.m in Sources */,
+				D04259131DBB4D3B0038AAAA /* ZSAuthorizationCenter.m in Sources */,
+				D04258F11DBB4CF10038AAAA /* AppDelegate.m in Sources */,
+				D04259171DBB4D3B0038AAAA /* ZSMicrophoneAuthorizor.m in Sources */,
+				D04258EE1DBB4CF10038AAAA /* main.m in Sources */,
+				D04259161DBB4D3B0038AAAA /* ZSLocationAuthorizor.m in Sources */,
+				D04259151DBB4D3B0038AAAA /* ZSCameraAuthorizor.m in Sources */,
+				D04259181DBB4D3B0038AAAA /* ZSPhotosAuthorizor.m in Sources */,
+				D04259141DBB4D3B0038AAAA /* ZSAuthorizor.m in Sources */,
+				D04259191DBB4D3B0038AAAA /* ZSRemoteAuthorizor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D04258F51DBB4CF10038AAAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04258F61DBB4CF10038AAAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D04258FA1DBB4CF10038AAAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04258FB1DBB4CF10038AAAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04258FE1DBB4CF10038AAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D04258FF1DBB4CF10038AAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D04259011DBB4CF10038AAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSAuthorizorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinguo.ZSAuthorizorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D04259021DBB4CF10038AAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSAuthorizorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pinguo.ZSAuthorizorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04258E41DBB4CF10038AAAA /* Build configuration list for PBXProject "ZSAuthorizorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04258FE1DBB4CF10038AAAA /* Debug */,
+				D04258FF1DBB4CF10038AAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04259001DBB4CF10038AAAA /* Build configuration list for PBXNativeTarget "ZSAuthorizorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04259011DBB4CF10038AAAA /* Debug */,
+				D04259021DBB4CF10038AAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D04258E11DBB4CF10038AAAA /* Project object */;
+}
